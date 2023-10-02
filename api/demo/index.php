@@ -184,7 +184,7 @@ function fileModifiedTime(string $filename): int
                 <label for="type">Output Type</label>
                 <select class="param" id="type" name="type">
                     <option value="svg">SVG</option>
-                    <option value="png">PNG</option>
+                    <option value="png" disabled>PNG</option>
                     <option value="json">JSON</option>
                 </select>
 
